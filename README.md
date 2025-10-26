@@ -25,9 +25,6 @@ A web application to manage tasks with file attachments. Users can create, updat
 ├─ prisma/ # Prisma ORM schema and migrations
 └─ server.ts # Express server entry point
 
-shell
-Copy code
-
 ### Frontend
 /frontend
 ├─ src/components/ # Reusable UI components
@@ -35,8 +32,6 @@ Copy code
 ├─ src/hooks/ # Custom React hooks (e.g., useAuth)
 └─ src/api/ # Axios API calls
 
-yaml
-Copy code
 
 ---
 
@@ -66,8 +61,6 @@ cd frontend
 npm install
 Start the frontend server:
 
-bash
-Copy code
 npm run dev
 Open your browser at http://localhost:5173 (or your Vite default port).
 
