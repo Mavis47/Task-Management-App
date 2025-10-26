@@ -4,6 +4,7 @@ import Homepage from './components/pages/Homepage'
 import Login from './components/pages/login'
 import AdminPanel from './components/pages/AdminPanel'
 import UserPanel from './components/pages/UserPanel'
+import Users from './components/pages/users'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/adminPanel" element={<AdminPanel/>}/>
         <Route path="/userPanel" element={<UserPanel/>}/>
+        <Route path="/users" element={<Users/>}/>
       </Routes>
     </>
   )

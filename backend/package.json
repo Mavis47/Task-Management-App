@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.ts",
+    "dev:frontend": "cd ../frontend && vite",
+    "dev:backend": "bun server.ts",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.4",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
+    "prisma": "^6.18.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "multer": "^2.0.2"
+  }
+}
